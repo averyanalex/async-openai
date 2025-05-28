@@ -571,6 +571,7 @@ pub enum ServiceTierResponse {
 #[derive(Clone, Serialize, Debug, Deserialize, PartialEq)]
 #[serde(rename_all = "lowercase")]
 pub enum ReasoningEffort {
+    None,
     Low,
     Medium,
     High,
